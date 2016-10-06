@@ -35,9 +35,8 @@ RUN pip3 install --upgrade pip && \
 RUN wget http://central.maven.org/maven2/org/apache/hadoop/hadoop-aws/2.7.1/hadoop-aws-2.7.1.jar && \
     mkdir /opt/jar && \
     mv /hadoop-aws-2.7.1.jar /opt/jar/
-
-RUN wget http://central.maven.org/maven2/com/amazonaws/aws-java-sdk/1.11.7/aws-java-sdk-1.11.7.jar && \
-    mv /aws-java-sdk-1.11.7.jar /opt/jar/
+RUN wget http://central.maven.org/maven2/com/amazonaws/aws-java-sdk/1.7.4/aws-java-sdk-1.7.4.jar && \
+    mv /aws-java-sdk-1.7.4.jar /opt/jar/
 
 # Download and setup the Spark
 RUN wget http://d3kbcqa49mib13.cloudfront.net/spark-2.0.0-bin-hadoop2.7.tgz && \
