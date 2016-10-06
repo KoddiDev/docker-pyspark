@@ -1,0 +1,11 @@
+*.DS_STORE
+*.csv
+*.pyc
+config.ini
+data/
+www/__pycache__/
+temp.py
+spark-warehouse
+metastore_db
+__init__.py
+__pycache__
